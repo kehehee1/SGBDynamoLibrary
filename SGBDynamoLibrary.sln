@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGBDynamoLibrary", "SGBDynamoLibrary\SGBDynamoLibrary.csproj", "{F55AA16A-0641-4BFF-B54B-6018CF806CE9}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "DynamoSandbox", "C:\Users\sgb\Downloads\Dynamo-master\bin\AnyCPU\Debug\DynamoSandbox.exe", "{179A4DEA-E74D-44EC-8899-A312385EC1A4}"
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
@@ -11,9 +11,12 @@ Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "DynamoSandbox", "C:\Users\s
 		StartingDirectory = C:\Users\sgb\Downloads\Dynamo-master\bin\AnyCPU\Debug
 		Environment = 默认值
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
 		LaunchSQLEngine = No
 		AttachLaunchAction = No
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGBDynamoLibrary", "SGBDynamoLibrary.csproj", "{F55AA16A-0641-4BFF-B54B-6018CF806CE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +28,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Debug|Any CPU.ActiveCfg = Debug
+		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Debug|x64.ActiveCfg = Debug
+		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Release|Any CPU.ActiveCfg = Debug
+		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Release|Mixed Platforms.ActiveCfg = Debug
+		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Release|x64.ActiveCfg = Debug
 		{F55AA16A-0641-4BFF-B54B-6018CF806CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F55AA16A-0641-4BFF-B54B-6018CF806CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55AA16A-0641-4BFF-B54B-6018CF806CE9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -35,12 +44,6 @@ Global
 		{F55AA16A-0641-4BFF-B54B-6018CF806CE9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F55AA16A-0641-4BFF-B54B-6018CF806CE9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F55AA16A-0641-4BFF-B54B-6018CF806CE9}.Release|x64.ActiveCfg = Release|Any CPU
-		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
-		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Debug|x64.ActiveCfg = Debug|x64
-		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Release|Any CPU.ActiveCfg = Debug|x64
-		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Release|Mixed Platforms.ActiveCfg = Debug|x64
-		{179A4DEA-E74D-44EC-8899-A312385EC1A4}.Release|x64.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
