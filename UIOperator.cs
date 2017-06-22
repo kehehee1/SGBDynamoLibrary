@@ -10,5 +10,9 @@ namespace SGBDynamoLibrary
         public static void TestGithub()
         {
         }
+
+        public static void TestAgain()
+        {
+        }
     }
 }
