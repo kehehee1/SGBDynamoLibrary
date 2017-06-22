@@ -44,3 +44,4 @@ Temporary Items
 *.pdb
 *.dll
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/DesignTimeResolveAssemblyReferences.cache

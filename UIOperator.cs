@@ -14,5 +14,10 @@ namespace SGBDynamoLibrary
         public static void TestAgain()
         {
         }
+
+        public static void UploadSlowly()
+        {
+
+        }
     }
 }
