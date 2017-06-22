@@ -7,5 +7,8 @@ namespace SGBDynamoLibrary
 {
     public class UIOperator
     {
+        public static void TestGithub()
+        {
+        }
     }
 }
